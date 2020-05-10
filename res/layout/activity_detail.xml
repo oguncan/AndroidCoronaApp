@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+
+        android:layout_marginVertical="15dp">
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Vaka Sayısı"
+            android:textSize="18sp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="-"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:id="@+id/txtCases"
+            android:textColor="@color/color_one"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_two"
+        android:layout_marginHorizontal="15dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginVertical="15dp">
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="İyileşenler"
+            android:textSize="18sp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="-"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:id="@+id/txtRecovery"
+            android:textColor="@color/color_one"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_two"
+        android:layout_marginHorizontal="15dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginVertical="15dp">
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Kritik Hastalar"
+            android:textSize="18sp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="-"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:id="@+id/txtCritical"
+            android:textColor="@color/color_one"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_two"
+        android:layout_marginHorizontal="15dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginVertical="15dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Aktif Hasta"
+            android:textSize="18sp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="-"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:id="@+id/txtActive"
+            android:textColor="@color/color_one"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_two"
+        android:layout_marginHorizontal="15dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginVertical="15dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Bugün içindeki hasta sayısı"
+            android:textSize="18sp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="-"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:id="@+id/txtTodayCase"
+            android:textColor="@color/color_one"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_two"
+        android:layout_marginHorizontal="15dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginVertical="15dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Bugün vefat eden sayısı"
+            android:textSize="18sp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="-"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:id="@+id/txtTodayDeath"
+            android:textColor="@color/color_one"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_two"
+        android:layout_marginHorizontal="15dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginVertical="15dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Total Ölüm Sayısı"
+            android:textSize="18sp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="-"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:id="@+id/txtTotalDeath"
+            android:textColor="@color/color_one"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_two"
+        android:layout_marginHorizontal="15dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_two"
+        android:layout_marginHorizontal="15dp"/>
+
+
+
+</LinearLayout>
