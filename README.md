@@ -1,5 +1,5 @@
 # Android Corona App with Glide, SimpleArcLoader, Volley, CardView, EazeGraph
-# API: https://corona.lmao.ninja/
+# API: https://corona.lmao.ninja
 
 <br>
 ![img](https://github.com/oguncan/AndroidCoronaApp/blob/master/Corona01.png)
